@@ -1,0 +1,92 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  border-width: 0px;
+}
+
+.menu ul{
+  display: block;
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+a{
+  color: inherit;
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+}
+header{
+  height: 600px;
+
+}
+.header-img img{
+  position: absolute;
+
+}
+.header-img{
+  display: border-box;
+  position: relative;
+  width: 100%;
+}
+.menu ul{
+  position: absolute;
+  padding-top: 130px;
+}
+.header-img h2{
+  position	: absolute;
+  width: 100%;
+  font-family: Mistral;
+  font-size: 50px;
+  color:hotpink;
+  padding-top: 0px;
+  padding-left: 20px;
+}
+
+.header-img h1{
+  position	: absolute;
+  width: 100%;
+  font-family: Mistral;
+  font-size: 50px;
+  color:white;
+  padding-top: 0px;
+  padding-left: 20px;
+}
+.menu li:hover{
+  color:hotpink;
+}
+.active{
+  background-color: blue;
+  font-family: Mistral;
+}
+.menu li{
+  font-family: "Impact";
+  font-size: 20px;
+  color:black;
+  display: inline-block;
+  margin-left: 20px;
+}
+footer{
+  height: 200px;
+  background-color: gray;
+}
+footer span{
+  position: absolute;
+  padding-top: 30px;
+  padding-left: 30px;
+  display: inline-block;
+  color:white;
+  font-family: "Century Gothic";
+}
+.links{
+  margin: 0px 0px 0px 0px;
+  display: block;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.price-img{
+  padding-left: 100px;
+  padding-right: : 0px;
+}
+.main{
+  background-color: navajowhite;
+}

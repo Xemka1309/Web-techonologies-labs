@@ -1,0 +1,15 @@
+.buy-section{
+  background-color:: navajowhite;
+}
+
+label,h2,span{
+  padding-left: 30px;
+  font-family: "Century Gothic";
+  color:hotpink;
+}
+.button{
+  padding:5px 5px 5px 5px;
+}
+form{
+  background-color: white;
+}
